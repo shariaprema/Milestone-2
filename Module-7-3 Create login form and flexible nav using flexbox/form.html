@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-3 Create login form and flexible nav using flexbox
+    </title>
+
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a{
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        /* input{
+            display: block;
+            width: 200px;
+        } */
+
+        .login-form{
+            display: flex;
+            flex-direction:column;
+            width: 50%;
+            border: 2px solid purple;
+            margin-top: 40px;
+            background-image: url(./Flower\ 01.png);
+
+        }
+
+        .login-form input{
+            margin: 10px;
+
+        }
+
+        .login-container{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            border: 2px solid red;
+            background-image: url('./Rectangle\ 9.png');
+        
+        }
+
+
+    </style>
+</head>
+<body>
+
+  <nav>
+    <div>
+        <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">Contact</a>
+    </div>
+
+         <a href="">Login</a>
+  </nav>
+
+  <section class="login-container">
+
+    <form class="login-form" > 
+
+            <h3>Please Login</h3>
+            <input type="email" placeholder="Your mail" required>
+            <input placeholder="your password" type="password" name="" id="" required>
+            <input type="button" value="Login" >
+
+    </form>
+
+</section>
+    
+</body>
+</html>
