@@ -3,7 +3,7 @@
 .primary-btn{
     border-radius: 8px;
     background: #FF900E;
-    padding: 20px 24px;
+    padding: 18px 22px;
     color: #FFF;
     text-align: center;
     font-size: 1.25rem;
@@ -25,7 +25,7 @@
     padding: 0; */
 }
 
-/* Header Styles */
+/* Header Styles Starting */
 
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -87,7 +87,74 @@ nav li a{
     margin-top: 10px;
 }
 
+/* Header Styles Ending */
 
+
+/* Main Style Start */
+
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
+/* Features Style Start */
+.feature-container{
+    display: flex;
+    align-items: center;
+    margin: auto 120px;
+
+}
+
+
+.feature-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.teams-content{
+    /* padding-right: 70px;
+    padding-left: 70px; */
+   margin-left: 70px;
+    
+}
+
+
+
+
+
+
+
+.teams-title{
+    color: #727272;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.features{
+    color: #FF900E;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.teams-description{
+    color:#727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+/* Features Style End  */
+
+/* Main Style End */
 
 
 
@@ -117,13 +184,6 @@ nav li a{
       }
     
 }
-
-
-
-
-
-
-
 
 
 
