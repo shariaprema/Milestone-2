@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex</title>
+
+<style>
+    .container{
+        display: flex;
+        gap: 10px;
+    }
+
+
+    .box{
+        background-color: blueviolet;
+        padding: 10px;
+        border: 1px solid black;
+        color: white;
+        border-radius: 10px;
+    }
+
+    @media screen and (max-width:576px) {
+        .container{
+            flex-direction: column;
+        }
+        
+    }
+
+</style>
+</head>
+<body>
+    <h1>Flexible Flex</h1>
+    <div class="container">
+        <div class="box">
+            <h3>First Box</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias, quia, voluptatem dolore repellat eum nulla sequi sit amet officiis earum, quaerat mollitia laborum delectus! Quaerat possimus suscipit officia dolor.</p>
+
+        </div>
+        <div class="box">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus incidunt optio tempore nemo delectus reprehenderit aliquid? Possimus natus dolores tenetur veniam nemo repudiandae, dolorum alias ab, voluptatem iure enim deserunt?</p>
+
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
