@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* @keyframes ping-pong {
+            from{
+                left: 0;
+            }
+
+            to{
+                left: 530px;
+                background-color: red;
+            }
+        } */
+
+
+        @keyframes bounce {
+
+            0%{
+
+                background-color: chartreuse;
+                top: 0;
+                left: 0;
+
+
+            }
+
+            25%{  
+
+                background-color: crimson;
+                left: 100px;
+                top: 230px;
+
+            }
+
+            40%{
+
+                background-color: fuchsia;
+                left: 220px;
+                top: 0;
+
+            }
+
+
+            60%{
+
+                background-color: darkorchid;
+
+                left: 320px;
+                top: 230px;
+
+            }
+
+
+            70%{
+
+                background-color: aliceblue;
+
+                left: 420px;
+                top: 0;
+            }
+
+            80%{
+
+                background-color: rgb(196, 207, 39);
+
+                left: 520px;
+                top: 230px;
+            }
+
+
+            90%{
+
+                background-color:maroon;
+
+                left: 620px;
+                top: 0px;
+            }
+
+            100%{
+
+                background-color: rgb(216, 16, 183);
+
+                left: 720px;
+                top: 230px;
+                }
+                        
+         }
+
+        .stage{
+            width: 790px;
+            height: 300px;
+            background-color: aqua;
+            border: 2px solid blue;
+        }
+
+        .ball{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: yellow;
+            position: relative;
+            /* animation: ping-pong 3s ease-in-out 2s infinite alternate; */
+
+            animation: bounce 4s ease-in-out 2s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <h2>Explore Animation</h2>
+
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
